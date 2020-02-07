@@ -1,0 +1,42 @@
+[INFO ] 2020-02-38 10:38:06.395 [main] JdbcStatementIntr - Connection established
+[INFO ] 2020-02-38 10:38:06.399 [main] JdbcStatementIntr - Statement created
+[INFO ] 2020-02-38 10:38:06.508 [main] JdbcStatementIntr - Data inserted
+[INFO ] 2020-02-38 10:44:03.620 [main] JdbcStatementIntr - Connection established
+[INFO ] 2020-02-38 10:44:03.624 [main] JdbcStatementIntr - Statement created
+[INFO ] 2020-02-38 10:44:03.771 [main] JdbcStatementIntr - Data inserted
+[INFO ] 2020-02-38 10:44:25.262 [main] JdbcStatementIntr - Connection established
+[INFO ] 2020-02-38 10:44:25.266 [main] JdbcStatementIntr - Statement created
+[INFO ] 2020-02-38 10:44:25.414 [main] JdbcStatementIntr - Data inserted
+[INFO ] 2020-02-38 11:34:08.597 [main] InsertMultipleUsingStatement - class loaded and registered
+[INFO ] 2020-02-38 11:34:09.001 [main] InsertMultipleUsingStatement - Connection established
+[INFO ] 2020-02-38 11:34:09.001 [main] InsertMultipleUsingStatement - Statement created
+[INFO ] 2020-02-38 11:34:09.150 [main] InsertMultipleUsingStatement - Data inserted
+[INFO ] 2020-02-38 11:34:29.614 [main] InsertMultipleUsingStatement - class loaded and registered
+[ERROR] 2020-02-38 11:34:29.633 [main] InsertMultipleUsingStatement - class not fondjava.sql.SQLException: No suitable driver found for jdbc:mysq://localhost:3306/mydatabase?useSSL=false
+[INFO ] 2020-02-38 11:34:35.118 [main] InsertMultipleUsingStatement - class loaded and registered
+[INFO ] 2020-02-38 11:34:35.514 [main] InsertMultipleUsingStatement - Connection established
+[INFO ] 2020-02-38 11:34:35.514 [main] InsertMultipleUsingStatement - Statement created
+[INFO ] 2020-02-38 11:34:35.661 [main] InsertMultipleUsingStatement - Data inserted
+[INFO ] 2020-02-38 11:58:18.719 [main] InsertMultipleUsingStatement - Enter employee id:
+[INFO ] 2020-02-38 11:58:26.299 [main] InsertMultipleUsingStatement - Name:nayan
+ Age:22
+[INFO ] 2020-02-38 14:06:12.132 [main] BatchStmt - Number of data affected:1
+[INFO ] 2020-02-38 14:06:12.136 [main] BatchStmt - Number of data affected:1
+[INFO ] 2020-02-38 14:21:06.793 [main] JdbcTransaction - Enter name:
+[INFO ] 2020-02-38 14:21:13.054 [main] JdbcTransaction - Enter id
+[INFO ] 2020-02-38 14:21:16.281 [main] JdbcTransaction - Enter city:
+[INFO ] 2020-02-38 14:21:20.308 [main] JdbcTransaction - Enter age
+[INFO ] 2020-02-38 14:21:22.647 [main] JdbcTransaction - Inserted to table 1 successfull
+[ERROR] 2020-02-38 14:21:22.658 [main] JdbcTransaction - Connection not possible
+[INFO ] 2020-02-38 14:25:03.609 [main] JdbcTransaction - Enter name:
+[INFO ] 2020-02-38 14:25:07.614 [main] JdbcTransaction - Enter id
+[INFO ] 2020-02-38 14:25:09.974 [main] JdbcTransaction - Enter city:
+[INFO ] 2020-02-38 14:25:12.989 [main] JdbcTransaction - Enter age
+[INFO ] 2020-02-38 14:25:15.703 [main] JdbcTransaction - Inserted to table 1 successfull
+[ERROR] 2020-02-38 14:25:15.854 [main] JdbcTransaction - Error:java.sql.SQLException: No value specified for parameter 3
+[INFO ] 2020-02-38 14:25:38.728 [main] JdbcTransaction - Enter name:
+[INFO ] 2020-02-38 14:25:42.290 [main] JdbcTransaction - Enter id
+[INFO ] 2020-02-38 14:25:44.775 [main] JdbcTransaction - Enter city:
+[INFO ] 2020-02-38 14:25:47.879 [main] JdbcTransaction - Enter age
+[INFO ] 2020-02-38 14:25:50.143 [main] JdbcTransaction - Inserted to table 1 successfull
+[INFO ] 2020-02-38 14:25:50.289 [main] JdbcTransaction - Inserted to table 2 successfull
